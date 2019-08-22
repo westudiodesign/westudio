@@ -6,19 +6,19 @@
 	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	  <meta name="generator" content="Mobirise v4.4.0, mobirise.com">
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <link rel="shortcut icon" href="desain/images/bintang.png" type="image/x-icon">
+	  <link rel="shortcut icon" href="images/bintang.png" type="image/x-icon">
 	  <meta name="description" content="">
 	  <title>Westudio : Home</title>
-	  <link rel="stylesheet" href="desain/bootstrap/css/bootstrap.min.css">
-	  <link rel="stylesheet" href="desain/bootstrap/css/bootstrap-grid.min.css">
-	  <link rel="stylesheet" href="desain/w3schools/w3.css">
-	  <link rel="stylesheet" href="desain/css/west-style-navbar.css" type="text/css">
-	  <link rel="stylesheet" href="desain/css/west-footer.css">
-	  <link rel="stylesheet" href="desain/css/west-header.css">
-	  <link rel="stylesheet" href="desain/css/style.css">
-	  <link rel="stylesheet" href="desain/css/transisi.css">
-	  <link rel="stylesheet" href="desain/font-awesome/css/font-awesome.min.css">
-	  <link rel="stylesheet" href="desain/font-awesome/css/font-awesome.css">
+	  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+	  <link rel="stylesheet" href="w3schools/w3.css">
+	  <link rel="stylesheet" href="css/west-style-navbar.css" type="text/css">
+	  <link rel="stylesheet" href="css/west-footer.css">
+	  <link rel="stylesheet" href="css/west-header.css">
+	  <link rel="stylesheet" href="css/style.css">
+	  <link rel="stylesheet" href="css/transisi.css">
+	  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
 	  <style>
 			/* Underline From Center */
 			.hvr-underline-from-center {
@@ -84,7 +84,7 @@
 				<div class="navbar-brand">
 					<span class="navbar-logo">
 						<a href="index.php?go=Home">
-							<img src="desain/images/westudio1-826x225.png" alt="Westudio Design" title="Westudio Design" media-simple="true" style="height: 5.3rem;">
+							<img src="images/westudio1-826x225.png" alt="Westudio Design" title="Westudio Design" media-simple="true" style="height: 5.3rem;">
 						</a>
 					</span>
 					
@@ -134,18 +134,18 @@
 	<?php include "footer.php" ?>
 	</section>
 
-  <script src="desain/web/desain/jquery/jquery.min.js"></script>
-  <script src="desain/popper/popper.min.js"></script>
-  <script src="desain/tether/tether.min.js"></script>
-  <script src="desain/bootstrap/js/bootstrap.min.js"></script>
-  <script src="desain/smooth-scroll/smooth-scroll.js"></script>
-  <!--<script src="desain/cookies-alert-plugin/cookies-alert-core.js"></script>
-  <script src="desain/cookies-alert-plugin/cookies-alert-script.js"></script>-->
-  <script src="desain/touch-swipe/jquery.touch-swipe.min.js"></script>
-  <script src="desain/viewport-checker/jquery.viewportchecker.js"></script>
-  <script src="desain/jarallax/jarallax.min.js"></script>
-  <script src="desain/dropdown/js/script.min.js"></script>
-  <script src="desain/theme/js/script.js"></script>
+  <script src="web/jquery/jquery.min.js"></script>
+  <script src="popper/popper.min.js"></script>
+  <script src="tether/tether.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="smooth-scroll/smooth-scroll.js"></script>
+  <!--<script src="cookies-alert-plugin/cookies-alert-core.js"></script>
+  <script src="cookies-alert-plugin/cookies-alert-script.js"></script>-->
+  <script src="touch-swipe/jquery.touch-swipe.min.js"></script>
+  <script src="viewport-checker/jquery.viewportchecker.js"></script>
+  <script src="jarallax/jarallax.min.js"></script>
+  <script src="dropdown/js/script.min.js"></script>
+  <script src="theme/js/script.js"></script>
   
   <input name="animation" type="hidden">
   <!--<input name="cookieData" type="hidden" data-cookie-text="We use cookies to give you the best experience. 
