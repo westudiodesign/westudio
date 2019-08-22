@@ -1,0 +1,150 @@
+html{
+  font-family:"Trebuchet MS",sans-serif;
+  -webkit-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
+}
+
+*{
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+
+body{ 
+  margin:0;
+  font-family:"Trebuchet MS","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:14px;
+  line-height:1.42857143;
+  color:#333;
+  background-color:#fff;
+  position: relative; 
+  transition:0.5s all;
+  
+  }
+  
+body a {
+	text-decoration:none;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+  
+/* Hover Underline Black*/
+		.hvr-underline-black {
+		  display: inline-block;
+		  vertical-align: middle;
+		  -webkit-transform: perspective(1px) translateZ(0);
+		  transform: perspective(1px) translateZ(0);
+		  box-shadow: 0 0 1px transparent;
+		  position: relative;
+		  overflow: hidden;
+		}
+		.hvr-underline-black:before {
+		  content: "";
+		  position: absolute;
+		  z-index: -1;
+		  left: 50%;
+		  right: 50%;
+		  bottom: 0;
+		  background:#00000; /*#80bfff;*/
+		  height: 2px;
+		  -webkit-transition-property: left, right;
+		  transition-property: left, right;
+		  -webkit-transition-duration: 0.3s;
+		  transition-duration: 0.3s;
+		  -webkit-transition-timing-function: ease-out;
+		  transition-timing-function: ease-out;
+		}
+		.hvr-underline-black:hover:before, 
+			.hvr-underline-black:focus:before, 
+			.hvr-underline-black:active:before {
+			  left: 0;
+			  right: 0;
+			}  
+/* Hover Underline Red*/
+			.hvr-underline-red {
+			  display: inline-block;
+			  vertical-align: middle;
+			  -webkit-transform: perspective(1px) translateZ(0);
+			  transform: perspective(1px) translateZ(0);
+			  box-shadow: 0 0 1px transparent;
+			  position: relative;
+			  overflow: hidden;
+				}
+			.hvr-underline-red:before {
+			  content: "";
+			  position: absolute;
+			  z-index: -1;
+			  left: 50%;
+			  right: 50%;
+			  bottom: 0;
+			  background:red;
+			  height: 2px;
+			  -webkit-transition-property: left, right;
+			  transition-property: left, right;
+			  -webkit-transition-duration: 0.3s;
+			  transition-duration: 0.3s;
+			  -webkit-transition-timing-function: ease-out;
+			  transition-timing-function: ease-out;
+				}
+			.hvr-underline-red:before, 
+				.hvr-underline-red:focus:before, 
+				.hvr-underline-red:active:before {
+				  left: 0;
+				  right: 0;
+					}
+
+.navbar-default{
+  background-color:#f8f8f8;
+  border-color:#e7e7e7;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  border-color:#e7e7e7;
+}
+
+@media (max-device-width:480px) and (orientation:landscape) {
+  .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse{
+    max-height:200px;
+  }
+}
+
+@media (min-width:768px) {
+  .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header{
+    margin-right:0;
+    margin-left:0;
+  }
+}
+
+a:active, a:hover{
+  outline:0;
+}
+
+a:focus, a:hover{
+  color:#23527c;
+  text-decoration:underline;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit]{
+  -webkit-appearance:button;
+  cursor:pointer;
+}
+
+button, select{
+  text-transform:none;
+}
+
+button, input, optgroup, select, textarea{
+  margin:0;
+  font:inherit;
+  color:inherit;
+}
+
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header{
+  margin-right:-15px;
+  margin-left:-15px;
+}
+
